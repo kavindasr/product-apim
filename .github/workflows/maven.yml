@@ -3,10 +3,10 @@ name: APIM builder
 on:
   pull_request:
     branches:
-      - master
+      - test-framework-v2_PR1
   workflow_dispatch:
     branches:
-      - master
+      - test-framework-v2_PR1
 concurrency:
   group: ${{ github.event.number }}
   cancel-in-progress: true
