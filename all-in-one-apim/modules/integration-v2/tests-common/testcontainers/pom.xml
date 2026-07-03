@@ -112,7 +112,7 @@
                             <arguments>
                                 <argument>-c</argument>
                                 <argument>
-                                    docker build ${docker.extra.hosts} https://github.com/wso2/docker-apim.git#master:dockerfiles/ubuntu/apim \
+                                    docker build ${docker.extra.hosts} https://github.com/kavindasr/docker-apim.git#master-opt-images:dockerfiles/ubuntu/apim \
                                     -t ${apim.docker.image.name} \
                                     --build-arg WSO2_SERVER_VERSION=${apim.server.version} \
                                     --build-arg WSO2_SERVER_ZIP_VERSION=${apim.server.version} \
